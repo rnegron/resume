@@ -5,11 +5,11 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-\documentclass[11pt,a4paper,sans]{moderncv}    
+\documentclass[11pt,a4paper,sans]{moderncv}
 
 % moderncv themes
-\moderncvstyle{classic}                             
-\moderncvcolor{grey}                               
+\moderncvstyle{classic}
+\moderncvcolor{grey}
 
 % adjust the page margins
 \usepackage[scale=0.9]{geometry}
@@ -18,10 +18,10 @@
 
 % personal data
 \name{Ra\'ul}{Negr\'on}
-\email{raul@raulnegron.me}
+\email{raul.esteban.negron@gmail.com}
 \homepage{raulnegron.me}
-\social[linkedin]{raulnegron}    
-\social[github]{rnegron}     
+\social[linkedin]{raulnegron}
+\social[github]{rnegron}
 
 
 %----------------------------------------------------------------------------------
@@ -33,13 +33,20 @@
 \makecvtitle
 
 \vspace*{-6mm}
-\section{Education}
-\cventry{Aug 2013 - Feb 2018\hspace{.2cm}}{B.Sc. in Computer Science}{University of Puerto Rico at R\'io Piedras}{}{\textit{3.8 Overall GPA}}{}
 
 \section{Experience}
 \subsection{Industry}
 
-\cventry{2019}{Full-stack Developer}{Alias Payments}{Guaynabo}{Puerto Rico}{\begin{itemize}
+\cventry{2020-Present}{Software Engineer}{BrainHi}{San Juan}{Puerto Rico}{\begin{itemize}
+  \item Led an overhaul of the backend logic for conversations, from ideation to development and release.
+  \item Added fullstack support for inbound and outbound Multimedia Messaging Service (MMS) based texting.
+  \item Built integrations with EHR services, as well as Slack and Salesforce integrations to support internal teams.
+ \item Developed the frontend and backend for a schedulable Messaging Campaign feature (bulk messaging).
+  \item Built a wallet-like solution that handles in-product purchases of credits for use in Messaging Campaigns.
+\end{itemize}}
+\medskip
+
+\cventry{2019-2020}{Full-stack Developer}{Alias Payments}{Guaynabo}{Puerto Rico}{\begin{itemize}
   \item Implemented a payout system for automatically transferring thousands of dollars daily.
   \item Integrated referral codes into the promotions backend.
 \item Designed and built APIs, internal systems and client-facing features using Node.js and Ember.js.
@@ -47,7 +54,7 @@
 \end{itemize}}
 \medskip
 
-\cventry{2018}{Junior Back-end Developer}{Abartys Health}{Guaynabo}{Puerto Rico}{\begin{itemize}
+\cventry{2018-2019}{Junior Back-end Developer}{Abartys Health}{Guaynabo}{Puerto Rico}{\begin{itemize}
 \item Improved, tested and maintained an API backed by the Django REST framework.
 \item Integrated Amazon Web Services such as Lambda, ECS, SNS and SQS, following best practices for each.
 \item Performed MySQL database optimizations, migrations and maintenance on AWS RDS.
@@ -56,7 +63,7 @@
 }
 \medskip
 
-\cventry{2017}{Intern}{National Institute of Standards and Technology}{Gaithersburg}{Maryland}{\begin{itemize}
+\cventry{2017-2018}{Intern}{National Institute of Standards and Technology}{Gaithersburg}{Maryland}{\begin{itemize}
 \item Implemented a Flask-based RESTful API for parsing form data into batch file data.
 \end{itemize}}
 \medskip
@@ -70,21 +77,23 @@
 % \medskip
 
 \section{Relevant Skills}
-\cvitem{}{Proficiency in Python and Node.js.}{}
-\cvitem{}{Experience with Django, TypeScript, Express.js, Ember.js and Amazon Web Services.}{}
-\cvitem{}{Experience working with UNIX-like systems, RESTful APIs, Git, Docker, SQL and NoSQL (MongoDB).}{}
+\cvitem{}{Proficiency in Python and JavaScript.}{}
+\cvitem{}{Experience with Django, Node.js, TypeScript, React and Amazon Web Services.}{}
+\cvitem{}{Experience working with UNIX-like systems, RESTful APIs, Git, Docker, Terraform, SQL and MongoDB.}{}
 \medskip
 
-%\section{Relevant Courses}
-%\cvitem{}{Data Structures, Algorithms, Databases, Discrete Mathematics, Linear Algebra, Abstract Algebra, Theory of Computation}{}
-
-\section{Activities}
-\cventry{2016}{Teaching Assistant for High Level Programming Languages, Spring 2016}{Provided tutoring and weekly office hours for students. Helped design and grade coursework on functional programming}{}{}{}{}
+\section{Education}
+\cventry{Aug 2013 - Feb 2018\hspace{.2cm}}{B.Sc. in Computer Science}{University of Puerto Rico at R\'io Piedras}{}{\textit{3.8 Overall GPA}}{}
 \medskip
+
+\section{Relevant Courses}
+\cvitem{}{Data Structures, Algorithms, Databases, Discrete Mathematics, Linear Algebra, Abstract Algebra, Theory of Computation}{}
+
+% \section{Activities}
+% \cventry{2016}{Teaching Assistant for High Level Programming Languages, Spring 2016}{Provided tutoring and weekly office hours for students. Helped design and grade coursework on functional programming}{}{}{}{}
+% \medskip
 
 \section{Awards and Certifications}
-
-\cventry{2018--2020}{AWS Certified Developer Associate}{Validation Number: CN3F0PKK12V1QM9E}{}{}{}
 
 \cventry{2014--2017}{Claude Shannon Scholar}{Received the Claude Shannon scholarship for excellence in Computer Science and Mathematics for three years consecutively}{}{}{}
 \medskip
